@@ -2,7 +2,8 @@ import Layout from "@/components/layout/Layout";
 import Card from "@/components/common/Card";
 import Pill from "@/components/common/Pill";
 import Button from "@/components/common/Button";
-import { PROPERTYLISTINGSAMPLE } from "@/constants";
+import { HERO_BACKGROUND, PROPERTYLISTINGSAMPLE } from "@/constants";
+import { url } from "inspector";
 
 export default function Home() {
   const filters = [
@@ -18,7 +19,7 @@ export default function Home() {
       {/* Hero Section */}
       <section
         className="bg-cover bg-center py-24 text-center text-white relative"
-        style={{ backgroundImage: `url(/assets/hero/Image 1.png)` }}
+        style={{ backgroundImage: `url(${HERO_BACKGROUND})` }}
       >
         <div className="bg-black/40 absolute inset-0"></div>
         <div className="relative z-10">

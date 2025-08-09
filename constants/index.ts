@@ -1,6 +1,6 @@
 import { PropertyProps } from "@/interfaces";
 
-export const HERO_BACKGROUND = "/assets/hero/image 1.png";
+export const HERO_BACKGROUND = "/assets/hero/Image 1.png";
 
 export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
   {

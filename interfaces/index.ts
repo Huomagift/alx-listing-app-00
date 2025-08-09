@@ -29,5 +29,12 @@ export interface PropertyProps {
       occupants: string
     },
     image: string,
-    discount: string
+    discount: string,
+    description?: string,
+    reviews?: {
+      name: string,
+      avatar: string,
+      rating: number,
+      comment: string
+    }[]
 }
